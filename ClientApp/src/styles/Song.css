@@ -1,0 +1,26 @@
+.Song {
+    font-family: OpenSansRegular, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.SongId {
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    margin: 5px;
+}
+.SongDescription {
+    text-align: left;
+}
+.SongTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

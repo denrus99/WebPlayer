@@ -1,0 +1,54 @@
+.ProfileComponent {
+    display: flex;
+    flex-direction: column;
+    background: #009999;
+}
+
+.ProfileInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.ProfileMusic {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileMusic h1 {
+    text-align: left;
+    font-family: OpenSansRegular, serif;
+    border: 3px solid #004545;
+}
+
+.ProfileSingers, .ProfileAlbums, .ProfilePlaylists, .ProfileTracks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.ProfileSingers, .ProfileAlbums, .ProfilePlaylists {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SanchezRegular";
+    src: url("../fonts/Sanchez-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoCyrillicRegular";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,403 @@
+h1 {
+    font-family: SanchezRegular, serif;
+}
+
+h2, h3 {
+    font-family: RobotoCyrillicRegular, serif;
+}
+
+.ActionWindow {
+    box-sizing: border-box;
+    width: 68%;
+}
+
+.AdditionalActions {
+    height: 3em;
+    width: 3em;
+    background-image: url("additionalactions.png");
+    background-size: cover;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    border-width: 0;
+    border-radius: 90px;
+    margin-left: 8px;
+}
+
+.AlbumCover {
+    height: auto;
+    width: 100%;
+}
+
+.App {
+    text-align: center;
+    background-color: #33CCCC;
+    min-height: 100vh;
+    font-family: OpenSansRegular, serif;
+}
+
+.App-header h1 {
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.App-header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #006363;
+}
+
+.AudioButtons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.AudioControls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Authentication form {
+    background: #FFAA00;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.Authentication {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.Authentication-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 650px;
+}
+
+.Authentication-tab {
+    background: #FFD073;
+    color: #A64B00;
+    border-width: 0;
+    z-index: 1;
+}
+
+.Authentication-tab-selected {
+    background: #FFBF40;
+    color: #A64B00;
+    border-width: 0;
+    z-index: 2;
+}
+
+.Form-field input {
+    order: 2;
+    flex: 1 1 auto;
+    background: #FFD073;
+    border-radius: 10px;
+    border-width: 0;
+    height: 50%;
+    width: auto;
+}
+
+.Form-field label {
+    order: 1;
+    width: 4em;
+    padding-right: 0.5em;
+    text-align: right;
+}
+
+.Form-field {
+    display: flex;
+    align-items: center;
+    color: #A64B00;
+}
+
+.LeftButton {
+    background-image: url("reversebutton.png");
+    background-color: inherit;
+    background-size: contain;
+}
+
+.LeftButton, .RightButton {
+    height: 3em;
+    width: 3em;
+}
+
+.Login-form button, .Registration-form button {
+    background: #FF7400;
+    width: 35%;
+    border-width: 0;
+    border-radius: 30px;
+    color: #A64B00;
+    font-family: OpenSansRegular, serif;
+    font-size: 30px;
+}
+
+.Login-form {
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.MainWindow {
+    display: flex;
+    flex-direction: row;
+}
+
+.MusicSelections h1 {
+    font-family: RobotoCyrillicRegular, serif;
+    font-size: 64px;
+    color: #006363;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.MusicSelections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 95vh;
+}
+
+.MusicSelections .Selections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.MusicSelections::-webkit-scrollbar {
+    display: none;
+}
+
+.PlayButton {
+    height: 3em;
+    width: 3em;
+    background-image: url("pause.png");
+    background-color: #FF7400;
+    background-size: contain;
+}
+
+.PlayButton, .LeftButton, .RightButton {
+    border-width: 0;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.PlaylistPreview {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 2vh;
+}
+
+.PlaylistPreview img {
+    width: 100%;
+}
+
+.PlayerSidebar {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    width: 32%;
+    background: #FFAA00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProgressBar {
+    width: 100%;
+}
+
+.Registration-form {
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.RightButton {
+    background-image: url("forwardbutton.png");
+    background-color: inherit;
+    background-size: contain;
+}
+
+.Search {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    background: #008080;
+    align-items: center;
+}
+
+.Search-field {
+    width: 30%;
+    height: 70%;
+    margin: 2px;
+    background: inherit;
+    border-color: black;
+    border-width: 0 0 2px 0;
+    color: black;
+    outline: none;
+    font-family: OpenSansRegular, serif;
+    transition: width 0.5s;
+}
+
+.Search-field::placeholder {
+    color: black;
+}
+
+.Search-field:focus {
+    width: 90%;
+}
+
+.Search-icon {
+    height: 66%;
+    width: auto;
+    margin: 10% 1%;
+}
+
+.Singer {
+    align-self: baseline;
+}
+
+.AlbumPreview, .SingerPreview, .ProfilePlaylists .PlaylistPreview {
+    display: flex;
+    height: 15vh;
+    flex-direction: column;
+}
+
+.AlbumPreview h4, .SingerPreview h4, .ProfilePlaylists .PlaylistPreview h4 {
+    width: 10vw;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.AlbumPreview img, .SingerPreview img, .ProfilePlaylists .PlaylistPreview img {
+    height: 100%;
+    width: auto;
+}
+
+.SongPreview {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0 5% 0;
+}
+
+.SongInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: scroll;
+    font-family: OpenSansRegular, serif;
+    font-size: 20px;
+}
+
+.SongInfo::-webkit-scrollbar {
+    display: none;
+}
+
+.SongInfo h2 {
+    align-self: center;
+}
+
+.SongAlbum {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.SongText {
+    text-align: left;
+    font-weight: bold;
+}
+
+.SongText p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.Tabs #registration {
+    border-radius: 0 40px 0 0;
+}
+
+.Tabs button {
+    flex-grow: 1;
+    border-radius: 40px 0 0 0;
+    margin: 0;
+    padding: 0;
+    width: 20vh;
+    font-size: 36px;
+    font-family: OpenSansRegular, serif;
+}
+
+.Tabs {
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+
+.TrackTitle {
+    align-self: baseline;
+}
+
+.UserImage {
+    height: 66%;
+    width: auto;
+    margin: 10% 1%
+}
+
+.UserProfile h2 {
+    height: 70%;
+    font-size: calc(36px / height * 36px);
+    overflow: hidden;
+}
+
+.UserProfile {
+    background: #FF7400;
+    display: flex;
+    justify-content: flex-start;
+    height: 5vh;
+    align-items: center;
+    font-family: OpenSansRegular, serif;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "SanchezRegular";
+    src: url("fonts/Sanchez-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoCyrillicRegular";
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
